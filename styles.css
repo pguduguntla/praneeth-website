@@ -1,0 +1,442 @@
+@font-face {
+    font-family: "DIN-Black";
+    src: url('./fonts/DIN-Black.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "DIN-Bold";
+    src: url('./fonts/DIN-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "DIN-Medium";
+    src: url('./fonts/DIN-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "DIN";
+    src: url('./fonts/DIN.ttf') format("truetype");
+}
+
+h1 {
+    font-family: "DIN-Bold", Helvetica, Arial, serif;
+    color: #000000;
+}
+
+h2 {
+    font-family: "DIN-Medium", Helvetica, Arial, serif;
+    color: #000000;
+}
+
+h3 {
+    font-family: "DIN-Black", Helvetica, Arial, serif;
+    color: #000000;
+}
+
+p {
+    font-family: "DIN", Helvetica, Arial, serif;
+    color: #000000;
+}
+
+body {}
+
+#right {
+    opacity: 0.57;
+    position: absolute;
+    z-index: -999;
+    float: right;
+    top: 70%;
+    right: 0;
+    width: 40%;
+    height: 1400px;
+    background-image: url(right.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#top-left {
+    z-index: -999;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 1100px;
+    background-image: url(top-left.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* #bottom-left {
+    z-index: -999;
+    float: left;
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    background-image: url(bottom-left.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+#intro {
+    margin-top: 130px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+#intro h2 {
+    line-height: 10px;
+    font-size: 30px;
+}
+
+#intro h1 {
+    line-height: 70px;
+    font-size: 60px;
+    letter-spacing: -1.2px;
+    padding: 0;
+    width: 70%;
+}
+
+#intro p {
+    font-size: 25px;
+    letter-spacing: -0.5px;
+    width: 60%;
+}
+
+.logo {
+    margin-top: 10px;
+    background-color: #E3E3E3;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: all .4s ease-in-out;
+    padding: 5px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+#email {
+    background-color: #DC6058;
+}
+
+#email div {
+    background-image: url(mail.svg);
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#linked-in {
+    background-color: white;
+    background-image: url(linked-in.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#github {
+    background-color: white;
+    background-image: url(github.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#facebook {
+    background-image: url(fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #3F51B5;
+}
+
+#photo {
+    z-index: 999;
+    position: absolute;
+    float: right;
+    top: 15%;
+    right: 15%;
+    background-image: url(praneeth-photo.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+#skills {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+#skills h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: -1.2px;
+}
+
+#skills h2 {
+    font-size: 20px;
+}
+
+#skills p {
+    letter-spacing: -0.5px;
+    font-size: 20px;
+}
+
+#unit {
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+#projects {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+#projects h2 {
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#projects p {
+    letter-spacing: -0.5px;
+    font-size: 20px;
+}
+
+#project {
+    margin-top: 40px;
+    width: 90%;
+}
+
+.link {
+    margin-top: 5px;
+    background-color: #E3E3E3;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+#footer {
+    height: 80px;
+}
+
+#footer p {
+    font-size: 20px;
+    line-height: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 800px) {
+    #right {
+        opacity: 0.57;
+        position: absolute;
+        z-index: -999;
+        float: right;
+        top: 80%;
+        right: 0;
+        width: 60%;
+        height: 1400px;
+        background-image: url(right.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #top-left {
+        z-index: -999;
+        float: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 1100px;
+        background-image: url(top-left.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    /* #bottom-left {
+        z-index: -999;
+        float: left;
+        position: absolute;
+        width: 40%;
+        height: 500px;
+        background-image: url(bottom-left.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    } */
+    #intro {
+        margin-top: 130px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        margin-bottom: 200px;
+    }
+    #intro h2 {
+        line-height: 10px;
+        font-size: 20px;
+    }
+    #intro h1 {
+        line-height: 50px;
+        font-size: 40px;
+        letter-spacing: -1.2px;
+        padding: 0;
+        width: 100%;
+    }
+    #intro p {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        width: 100%;
+    }
+    .logo {
+        margin-top: 10px;
+        background-color: #E3E3E3;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-right: 10px;
+        transition: all .4s ease-in-out;
+        padding: 5px;
+    }
+    .logo:hover {
+        transform: scale(1.1);
+    }
+    #email {
+        background-color: #DC6058;
+    }
+    #email div {
+        background-image: url(mail.svg);
+        width: 80%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #linked-in {
+        background-color: white;
+        background-image: url(linked-in.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #github {
+        background-color: white;
+        background-image: url(github.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #facebook {
+        background-image: url(fb.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #3F51B5;
+    }
+    #photo {
+        z-index: 999;
+        position: absolute;
+        float: right;
+        top: 15%;
+        right: 15%;
+        background-image: url(praneeth-photo.png);
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        display: none;
+    }
+    #skills {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    #skills h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        letter-spacing: -1.2px;
+    }
+    #skills h2 {
+        font-size: 20px;
+    }
+    #skills p {
+        letter-spacing: -0.5px;
+        font-size: 20px;
+    }
+    #unit {
+        padding-left: 0px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+    }
+    #projects {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    #projects h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #projects h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #projects p {
+        letter-spacing: -0.5px;
+        font-size: 20px;
+    }
+    #project {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .link {
+        margin-top: 5px;
+        background-color: #E3E3E3;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-right: 10px;
+        transition: all .4s ease-in-out;
+    }
+    .link:hover {
+        transform: scale(1.1);
+    }
+    #footer {
+        height: 80px;
+    }
+    #footer p {
+        font-size: 10px;
+        line-height: 80px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        letter-spacing: -0.5px;
+    }
+}
