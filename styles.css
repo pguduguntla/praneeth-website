@@ -138,59 +138,6 @@ body {}
     color: #00B973;
 }
 
-
-/* 
-.logo {
-    margin-top: 0px;
-    background-color: #E3E3E3;
-    border: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    margin-right: 10px;
-    
-    padding: 5px;
-}
-
-.logo:hover {
-    
-} */
-
-/* #email {
-    background-color: #DC6058;
-}
-
-#email div {
-    background-image: url(mail.svg);
-    width: 80%;
-    height: 80%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#linked-in {
-    background-color: white;
-    background-image: url(linked-in.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#github {
-    background-color: white;
-    background-image: url(github.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#facebook {
-    background-image: url(fb.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #3F51B5;
-} */
-
 #photo-container {
     z-index: 999;
     position: absolute;
@@ -316,7 +263,7 @@ body {}
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: 80px;
 }
 
 #interests h1{
