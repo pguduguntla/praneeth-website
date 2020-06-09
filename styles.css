@@ -277,6 +277,8 @@ body {}
 
 
 #interests li{
+    color: black;
+    letter-spacing: -0.5px;
     font-family: "DIN";
     font-size: 20px;
     margin-bottom: 10px;
@@ -333,7 +335,7 @@ body {}
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
 
     #intro h2 {
@@ -355,57 +357,67 @@ body {}
         width: 100%;
     }
 
-    .logo {
-        margin-top: 10px;
-        background-color: #E3E3E3;
-        border: none;
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
-        margin-right: 10px;
+    #intro .iconify{
+        font-size: 40px;
+        margin-right: 5px;
         transition: all .4s ease-in-out;
-        padding: 5px;
     }
-
-    .logo:hover {
-        transform: scale(1.1);
+    
+    
+    #intro .iconify:hover{
+        transform: scale(1.5);
     }
-
-    #email {
-        background-color: #DC6058;
+    
+    #facebook:hover{
+        color: #3F51B5;
     }
-
-    #email div {
-        background-image: url(mail.svg);
-        width: 80%;
-        height: 80%;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        margin-left: auto;
-        margin-right: auto;
+    
+    #linked-in:hover{
+        color: #009BD8;
     }
-
-    #linked-in {
-        background-color: white;
-        background-image: url(linked-in.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
+    
+    #github:hover{
+        color: #808080;
     }
-
-    #github {
-        background-color: white;
-        background-image: url(github.svg);
-        background-repeat: no-repeat;
-        background-size: 100%;
+    
+    #email:hover{
+        color: #DC6058;
     }
-
-    #facebook {
-        background-image: url(fb.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-color: #3F51B5;
+    
+    #medium:hover{
+        color: #00B973;
     }
-
+    #intro .iconify{
+        font-size: 40px;
+        margin-right: 5px;
+        transition: all .4s ease-in-out;
+    }
+    
+    
+    #intro .iconify:hover{
+        transform: scale(1.5);
+    }
+    
+    #facebook:hover{
+        color: #3F51B5;
+    }
+    
+    #linked-in:hover{
+        color: #009BD8;
+    }
+    
+    #github:hover{
+        color: #808080;
+    }
+    
+    #email:hover{
+        color: #DC6058;
+    }
+    
+    #medium:hover{
+        color: #00B973;
+    }
+        
     #photo-container{
 
         display: none;
@@ -465,6 +477,40 @@ body {}
         margin-top: 40px;
         width: 100%;
     }
+
+    #interests {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    
+    #interests h1{
+        font-size: 30px;
+    }
+    
+    #interests .iconify{
+        margin-right: 10px;
+        line-height: 20px;
+    }
+    
+    
+    #interests li{
+        color: black;
+        letter-spacing: -0.5px;
+        font-family: "DIN";
+        font-size: 20px;
+        margin-bottom: 10px;
+
+
+    }
+    
+    #interests ul{
+        margin-top: 20px;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    
 
 
 
