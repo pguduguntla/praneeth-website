@@ -7,7 +7,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -22,15 +25,41 @@
     <div id="intro">
         <h2>Hi! My name is</h2>
         <h1>Praneeth Guduguntla</h1>
-        <p>I’m a student, developer, researcher and leader. I love to do this that, that and this, and other stuff too. </p>
+        <p>I’m a student, developer, researcher and leader. I just graduated from Cupertino High School and will be
+            attending UIUC this fall as a Computer Science major. I love to travel, draw, and design!</p>
 
-        <button id="linked-in" class="logo"><div></div></button>
+        <span class="iconify" id="facebook" data-icon="mdi:facebook" data-inline="false"></span>
+        <span class="iconify" id="linked-in" data-icon="mdi:linkedin" data-inline="false"></span>
+        <span class="iconify" id="github" data-icon="mdi:github" data-inline="false"></span>
+        <span class="iconify" id="email" data-icon="mdi:gmail" data-inline="false"></span>
+        <span class="iconify" id="medium" data-icon="mdi-medium" data-inline="false"></span>
+
+
+        <!-- <button id="linked-in" class="logo"><div></div></button>
         <button id="github" class="logo"><div></div></button>
         <button id="facebook" class="logo"><div></div></button>
-        <button id="email" class="logo"><div></div></button>
+        <button id="email" class="logo"><div></div></button> -->
 
-        <div id="photo"></div>
+        <div id="photo-container">
+            <div id="photo"></div>
+            <span>&#8593 Look, it's me! So handsome....</span>
+        </div>
 
+
+    </div>
+
+    <div id="interests">
+        <h1>Current Interests</h1>
+        <ul>
+            <li><span class="iconify" data-icon="mdi-guitar-acoustic" data-inline="false"></span>Picking up the guitar
+            </li>
+            <li><span class="iconify" data-icon="mdi:camera" data-inline="false"></span>Photograpy (more specifically
+                editing)</li>
+            <li><span class="iconify" data-icon="mdi:grain" data-inline="false"></span>UI/UX Design (getting better at
+                Sketch/Illustrator)</li>
+            <li><span class="iconify" data-icon="mdi:cake-variant" data-inline="false"></span>Baking (bread, cakes,
+                pizza, you name it I probably can't make it. But...I'm learning!)</li>
+        </ul>
     </div>
 
     <div id="skills">
@@ -40,25 +69,33 @@
             <div class="row" style="">
                 <div id="unit" class="col-md-6" style="">
                     <h2>Web Development</h2>
-                    <p>Go to this <a href="#" target="_blank">link</a> on the Chrome Webstore and download the chrome extention. The SpotifyParty icon will now appear on your chrome tool bar.</p>
+                    <p>Go to this <a href="#" target="_blank">link</a> on the Chrome Webstore and download the chrome
+                        extention. The SpotifyParty icon will now appear on your chrome tool bar.</p>
 
                 </div>
                 <div id="unit" class="col-md-6" style="">
                     <h2>Android Development</h2>
-                    <p>Go to <a href="https://open.spotify.com/" target="_blank">open.spotify.com</a> and select the playlist that you would like to share. This will be the playlist which you and your friends and listen to together.</p>
+                    <p>Go to <a href="https://open.spotify.com/" target="_blank">open.spotify.com</a> and select the
+                        playlist that you would like to share. This will be the playlist which you and your friends and
+                        listen to together.</p>
 
                 </div>
             </div>
             <div class="row" style="">
                 <div id="unit" class="col-md-6" style="">
                     <h2>Computer Vision</h2>
-                    <p>Once on the Spotify website and on a specific playlist, the SpotifyParty icon should now be active. Click the icon and follow the instructions to create a room.</p>
+                    <p>Once on the Spotify website and on a specific playlist, the SpotifyParty icon should now be
+                        active. Click the icon and follow the instructions to create a room.</p>
 
                 </div>
                 <div id="unit" class="col-md-6" style="">
                     <h2>Python/Java/Javascript</h2>
-                    <p>Once your room is created, SpotifyParty will provide you with a custom link which you can share with your friends. Time to get your moves on!</p>
-
+                    <p>Once your room is created, SpotifyParty will provide you with a custom link which you can share
+                        with your friends. Time to get your moves on!</p>
+                    <span class="iconify" data-icon="mdi:language-python" data-inline="false"></span>
+                    <span class="iconify" data-icon="mdi:language-html5" data-inline="false"></span>
+                    <span class="iconify" data-icon="mdi:language-javascript" data-inline="false"></span>
+                    <span class="iconify" data-icon="mdi:language-java" data-inline="false"></span>
 
                 </div>
             </div>
@@ -70,39 +107,54 @@
         <h1>My Projects</h1>
         <div id="project">
             <h2>SpotifyParty</h2>
-            <p>A chrome extention for Spotify that allows users to sync their music and listen to their favorite music at the same time. Users can communicate within the extention via chat and control the music in real time.</p>
-            <button class="link"></button>
-            <button class="link"></button>
+            <p>A chrome extention for Spotify that allows users to sync their music and listen to their favorite music
+                at the same time. Users can communicate within the extention via chat and control the music in real
+                time.</p>
+            <span class="iconify" id="github" data-icon="mdi:github" data-inline="false"></span>
+            <span class="iconify" id="medium" data-icon="mdi-medium" data-inline="false"></span>
+            <span class="iconify" data-icon="ion-globe" data-inline="false"></span>
         </div>
         <div id="project">
             <h2>PBJ Thoughts Blog</h2>
-            <p>A blog application for my friends and I to share our thoughts and adventures with the public. The application was built with React and PostgresSQL backend.</p>
-            <button class="link"></button>
+            <p>A blog application for my friends and I to share our thoughts and adventures with the public. The
+                application was built with React and PostgresSQL backend.</p>
+            <span class="iconify" id="github" data-icon="mdi:github" data-inline="false"></span>
+            <span class="iconify" data-icon="ion-globe" data-inline="false"></span>
         </div>
 
         <div id="project">
             <h2>TradeX</h2>
-            <p>An android app designed to streamline communication between school administrations and students during emergencies.</p>
-            <button class="link"></button>
-            <button class="link"></button>
+            <p>An android app designed to streamline communication between school administrations and students during
+                emergencies.</p>
+            <span class="iconify" id="github" data-icon="mdi:github" data-inline="false"></span>
+            <span class="iconify" data-icon="ion-globe" data-inline="false"></span>
         </div>
 
         <div id="project">
             <h2>Sentinel</h2>
-            <p>An android app designed to streamline communication between school administrations and students during emergencies.</p>
-            <button class="link"></button>
-            <button class="link"></button>
+            <p>An android app designed to streamline communication between school administrations and students during
+                emergencies.</p>
+            <span class="iconify" id="github" data-icon="mdi:github" data-inline="false"></span>
+            <span class="iconify" data-icon="ion-globe" data-inline="false"></span>
         </div>
 
         <div id="project">
             <h2>FRC Team 2473: Computer Vision </h2>
-            <p>An android app designed to streamline communication between school administrations and students during emergencies.</p>
-            <button class="link"></button>
-            <button class="link"></button>
+            <p>An android app designed to streamline communication between school administrations and students during
+                emergencies.</p>
+            <span class="iconify" id="github" data-icon="mdi:github" data-inline="false"></span>
         </div>
 
 
+
+
+
     </div>
+
+
+
+
+
 
     <div id="footer">
 
