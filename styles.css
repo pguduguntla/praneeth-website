@@ -38,7 +38,10 @@ p {
     color: #000000;
 }
 
-body {}
+hr{
+    max-width: 80%;
+    margin: 0px;
+}
 
 #right {
     opacity: 0.57;
